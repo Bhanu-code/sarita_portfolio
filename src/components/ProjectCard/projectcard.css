@@ -1,0 +1,43 @@
+p {
+    width: auto;
+}
+
+.p-cont {
+    width: 80%;
+}
+
+.left,
+.right {
+    width: 496px;
+    height: 350px;
+}
+
+.profilepic {
+    object-fit: contain;
+}
+
+@media only screen and (width<=500px) {
+
+    .hero-cont{
+        margin-bottom: 10rem;
+    }
+
+    .p-cont{
+        /* justify-content: center; */
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .profilepic{
+        width: 100%;
+        height: 70%;
+    }
+    
+}

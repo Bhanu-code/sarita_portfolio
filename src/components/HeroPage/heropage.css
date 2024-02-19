@@ -1,0 +1,32 @@
+span {
+    color: #FDC435;
+    font-weight: bold;
+}
+
+.aboutme {
+    font-family: "Old Standard TT", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #828282;
+}
+
+.profile_img {
+    height: 80vh;
+}
+
+.profile_pic {
+    position: relative;
+    left: 3.5rem;
+    bottom: 5rem;
+    z-index: -1;
+}
